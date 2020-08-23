@@ -1,0 +1,32 @@
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file + ".woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font("JetBrains Mono", "./fonts/JetBrainsMono-Regular");
+
+$bg-color: #00172d;
+$primary-color: #a3dede;
+$secondary-color: #73acc1;
+$third-color: #3d5f6f;
+$delete-color: #ec0631;
+
+$border-radius: 2px;
+
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+body {
+  margin: 0;
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}

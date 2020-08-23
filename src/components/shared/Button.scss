@@ -1,0 +1,14 @@
+@import "../../index.scss";
+
+.button {
+  background-color: $third-color;
+  border: none;
+  border-radius: $border-radius;
+  color: $primary-color;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 20px 0 0 0;
+  padding: 10px 35px;
+  width: 150px;
+}

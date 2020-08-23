@@ -1,0 +1,17 @@
+@import "../../index.scss";
+
+.time {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4em;
+  margin-top: 15vh;
+  .time__day {
+  }
+  .time__clock {
+    margin-top: 30px;
+  }
+}

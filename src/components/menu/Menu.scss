@@ -1,0 +1,19 @@
+@import "../../index.scss";
+
+.menu {
+  .menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    font-weight: 600;
+    .menu-list__item {
+      cursor: pointer;
+      transition: color 0.3s;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}

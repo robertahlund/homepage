@@ -1,0 +1,61 @@
+@import "../../index.scss";
+
+.favourites {
+  padding: 25px 0;
+  .favourites__title {
+    margin: 0;
+    padding: 0;
+  }
+  .favourites-items {
+    display: flex;
+    flex-wrap: wrap;
+    .favourites-item {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-left: 20px;
+      background-color: $third-color;
+      padding: 10px;
+      border-radius: $border-radius;
+      width: calc(20% - 16px);
+      &:first-child {
+        margin-left: 0;
+      }
+      &:nth-child(6) {
+        margin-left: 0;
+      }
+      &:nth-child(11) {
+        margin-left: 0;
+      }
+      &:nth-child(16) {
+        margin-left: 0;
+      }
+      &:nth-child(21) {
+        margin-left: 0;
+      }
+      &:nth-child(26) {
+        margin-left: 0;
+      }
+      &:nth-child(31) {
+        margin-left: 0;
+      }
+      &:nth-child(36) {
+        margin-left: 0;
+      }
+
+      .icon {
+        margin-left: 5px;
+        margin-top: 2px;
+        cursor: pointer;
+      }
+      .favourites-item__image {
+      }
+      .favourites-item__name {
+        padding-left: 5px;
+        color: $primary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}

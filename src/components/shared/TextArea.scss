@@ -1,0 +1,15 @@
+@import "../../index.scss";
+
+.textarea {
+  border-radius: $border-radius;
+  border: none;
+  font-family: $font-family;
+  outline: none;
+  font-size: 0.9rem;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  background-color: $primary-color;
+  color: $bg-color;
+  font-weight: 600;
+}
